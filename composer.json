@@ -11,6 +11,9 @@
 			"role": "Developer"
 		}
 	],
+	"require": {
+		"twig/twig": "^2.0"
+	},
 	"extra": {
 		"installer-name": "Twig"
 	}
