@@ -1,2 +1,3 @@
-# pandora3-plugin-Twig
-Twig template engine plugin for Pandora 3
+# Pandora 3 - Twig plugin
+
+Provides support for Twig templating
