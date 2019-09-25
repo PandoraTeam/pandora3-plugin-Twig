@@ -23,7 +23,7 @@ class TwigRenderer implements RendererInterface {
 	public function __construct(string $path, array $options = []) {
 		$this->twig = new Environment(new FilesystemLoader(APP_PATH.'/Views'), $options);
 		$this->twig->addTokenParser(new RenderTokenParser);
-		$this->twig->addExtension(new JsFilterExtension);
+		$this->twig->addExtension(new JsExtension);
 	}
 
 	/**

@@ -8,7 +8,7 @@ use Twig\TwigFilter;
  * Class JsFilterExtension
  * @package Pandora3\Plugins\Twig
  */
-class JsFilterExtension extends AbstractExtension {
+class JsExtension extends AbstractExtension {
 
 	public function getFilters() {
 		return [
